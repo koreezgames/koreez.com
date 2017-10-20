@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**",
+      "**/scss/**",
+      ".travis.yml",
+      ".firebaserc",
+      ".gitignore",
+      "gulpfile.js",
+      "LICENSE",
+      "package.json",
+      "package-lock.json",
+      "README.md"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
