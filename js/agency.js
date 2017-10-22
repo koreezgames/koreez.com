@@ -35,4 +35,6 @@
     }
   });
 
+  $('#year').text(new Date().getFullYear())
+
 })(jQuery); // End of use strict

@@ -17,3 +17,11 @@
   @include button-variant(white, $theme-primary, $theme-primary);
   @include heading-font;
 }
+
+.fa-stack-mobile {
+  font-size: 1.3em
+}
+
+.fa-stack-paint-brush {
+  font-size: 0.85em
+}
