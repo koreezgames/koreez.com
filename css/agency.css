@@ -3,17 +3,38 @@
  * Copyright 2016-2017 Koreez LLC
  * Licensed under MIT (https://github.com/koreezgames)
  */
+@font-face {
+  font-family: "Lao Sangam";
+  src: url("../fonts/LaoSangamMN.eot");
+  src: url("../fonts/LaoSangamMN.eot?#iefix") format("embedded-opentype"), url("../fonts/LaoSangamMN.woff") format("woff"), url("../fonts/LaoSangamMN.ttf") format("truetype"), url("../fonts/LaoSangamMN.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Sweetly Broken";
+  src: url("../fonts/SweetlyBroken.eot");
+  src: url("../fonts/SweetlyBroken.eot?#iefix") format("embedded-opentype"), url("../fonts/SweetlyBroken.woff") format("woff"), url("../fonts/SweetlyBroken.ttf") format("truetype"), url("../fonts/SweetlyBroken.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Norwester";
+  src: url("../fonts/Norwester-Regular.eot");
+  src: url("../fonts/Norwester-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Norwester-Regular.woff") format("woff"), url("../fonts/Norwester-Regular.ttf") format("truetype"), url("../fonts/Norwester-Regular.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #008191; }
   a.active, a:active, a:focus, a:hover {
-    color: #fec503; }
+    color: #00545e; }
 
 h1,
 h2,
@@ -21,34 +42,33 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-weight: 500;
+  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 section {
   padding: 50px 0; }
   section h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
+    font-size: 45px;
+    margin-top: 0px;
     margin-bottom: 15px; }
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    color: red;
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
     padding: 50px 0; } }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #008191;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #008191;
   text-shadow: none; }
 
 img::selection {
@@ -58,7 +78,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #008191; }
 
 #mainNav {
   background-color: #222222; }
@@ -69,24 +89,22 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    background-color: #008191;
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #fed136;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    color: white;
+    font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #e6e6e6; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: white;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #008191; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -127,36 +145,24 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 22px;
+      font-size: 60px;
       font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; }
+      margin-bottom: 285px;
+      font-family: 'Sweetly Broken', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 100px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 400px;
+    margin-top: 100px;
+    font-family: 'Sweetly Broken', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+
+@media (min-width: 1900px) {
+  header.masthead .intro-text .intro-lead-in {
+    margin-bottom: 620px; } }
 
 .service-heading {
   margin: 15px 0;
@@ -179,7 +185,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: rgba(0, 129, 145, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -209,7 +215,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -241,7 +247,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
@@ -335,7 +341,7 @@ header.masthead {
       color: white;
       border: 7px solid #f1f1f1;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #008191; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -451,30 +457,26 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 236px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #008191;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 18- */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 19+ */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact .text-danger {
     color: #e74c3c; }
 
@@ -485,15 +487,13 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 ul.social-buttons {
   margin-bottom: 0; }
@@ -511,38 +511,37 @@ ul.social-buttons {
     outline: none;
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #008191; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #008191 !important; }
 
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #fed136;
-  background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  border-color: #008191;
+  background-color: #008191;
+  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503; }
+    border-color: #001012;
+    background-color: #00545e; }
   .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    border-color: #004b54;
+    background-color: #00545e; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    border-color: #004b54;
+    background-color: #00545e; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      border-color: #001012;
+      background-color: #00343a; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -550,10 +549,10 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #008191;
+    background-color: #008191; }
   .btn-primary .badge {
-    color: #fed136;
+    color: #008191;
     background-color: white; }
 
 .btn-xl {
@@ -562,30 +561,29 @@ ul.social-buttons {
   padding: 20px 40px;
   border-radius: 3px;
   color: white;
-  border-color: #fed136;
-  background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  border-color: #008191;
+  background-color: #008191;
+  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503; }
+    border-color: #001012;
+    background-color: #00545e; }
   .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    border-color: #004b54;
+    background-color: #00545e; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503; }
+    border-color: #004b54;
+    background-color: #00545e; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
       color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      border-color: #001012;
+      background-color: #00343a; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
@@ -593,11 +591,54 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #008191;
+    background-color: #008191; }
   .btn-xl .badge {
-    color: #fed136;
+    color: #008191;
     background-color: white; }
+
+.btn-play {
+  font-size: 30px;
+  padding: 5px 50px;
+  border-radius: 10px;
+  color: white;
+  border-color: #008191;
+  background-color: #008191; }
+  .btn-play.focus, .btn-play:focus {
+    color: white;
+    border-color: #001012;
+    background-color: #00545e; }
+  .btn-play:hover {
+    color: white;
+    border-color: #004b54;
+    background-color: #00545e; }
+  .btn-play.active, .btn-play:active,
+  .open > .btn-play.dropdown-toggle {
+    color: white;
+    border-color: #004b54;
+    background-color: #00545e; }
+    .btn-play.active.focus, .btn-play.active:focus, .btn-play.active:hover, .btn-play:active.focus, .btn-play:active:focus, .btn-play:active:hover,
+    .open > .btn-play.dropdown-toggle.focus,
+    .open > .btn-play.dropdown-toggle:focus,
+    .open > .btn-play.dropdown-toggle:hover {
+      color: white;
+      border-color: #001012;
+      background-color: #00343a; }
+  .btn-play.active, .btn-play:active,
+  .open > .btn-play.dropdown-toggle {
+    background-image: none; }
+  .btn-play.disabled.focus, .btn-play.disabled:focus, .btn-play.disabled:hover, .btn-play[disabled].focus, .btn-play[disabled]:focus, .btn-play[disabled]:hover,
+  fieldset[disabled] .btn-play.focus,
+  fieldset[disabled] .btn-play:focus,
+  fieldset[disabled] .btn-play:hover {
+    border-color: #008191;
+    background-color: #008191; }
+  .btn-play .badge {
+    color: #008191;
+    background-color: white; }
+
+.btn-play > i {
+  margin-left: 5px; }
 
 .fa-stack-mobile {
   font-size: 1.3em; }
