@@ -1,4 +1,8 @@
 // Styling for the team section
+#team {
+  background-color: #f6f7f8;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -8,6 +12,8 @@
     border: 7px solid white;
   }
   h4 {
+    @include lao-sagnam;
+    font-weight: bold;
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;

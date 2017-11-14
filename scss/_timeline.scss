@@ -86,7 +86,7 @@
   .timeline-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: $theme-primary;
       &.subheading {
         text-transform: none;
       }
@@ -96,6 +96,7 @@
      > ul,
     > p {
       margin-bottom: 0;
+      line-height: 20px;
     }
   }
 }

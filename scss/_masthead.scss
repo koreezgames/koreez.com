@@ -5,7 +5,7 @@ header.masthead {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center -50px;
   @include background-cover;
   .intro-text {
     padding-top: 150px;
@@ -14,20 +14,21 @@ header.masthead {
       font-size: 60px;
       font-style: italic;
       line-height: 22px;
-      margin-bottom: 285px;
+      margin-bottom: 250px;
       @include sweetly-broken;
     }
   }
 }
 @media(min-width:768px) {
   header.masthead {
+      background-position: center -200px;
     .intro-text {
       .intro-lead-in {
         font-size: 100px;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 400px;
-        margin-top: 100px;
+        margin-bottom: 350px;
+        margin-top: 60px;
         @include sweetly-broken;
       }
     }
@@ -36,9 +37,10 @@ header.masthead {
 
 @media (min-width: 1900px) {
   header.masthead {
+    background-position: center -300px;
     .intro-text {
       .intro-lead-in {
-        margin-bottom: 620px;
+        margin-bottom: 540px;
       }
     }
   }

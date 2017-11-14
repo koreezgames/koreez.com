@@ -1,5 +1,12 @@
 // Styling for the portfolio section
 #portfolio {
+  background-color: #2b3335;
+  h2.section-heading {
+    color: #fdfdfd;
+  }
+  h3.section-subheading {
+    color: #fdfdfd;
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -44,15 +51,18 @@
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
+      padding-top: 15px;
       text-align: center;
       background-color: white;
+      color: #525252;
       h4 {
         margin: 0;
         text-transform: none;
+        padding-bottom: 5px;
       }
       p {
         font-size: 16px;
-        font-style: italic;
+        line-height: 20px;
         margin: 0;
         @include lao-sagnam;
       }
