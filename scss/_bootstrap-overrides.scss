@@ -6,7 +6,7 @@
 .btn-primary {
   font-weight: 700;
   @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+  @include lao-sagnam;
 }
 
 .btn-xl {
@@ -15,7 +15,18 @@
   padding: 20px 40px;
   border-radius: 3px;
   @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+  @include lao-sagnam;
+}
+
+.btn-play {
+  font-size: 30px;
+  padding: 5px 50px;
+  border-radius: 10px;
+  @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn-play > i{
+  margin-left:5px;
 }
 
 .fa-stack-mobile {

@@ -58,17 +58,40 @@
   background-size: cover;
 }
 
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+  url($font-file+'.woff') format('woff'),
+  url($font-file+'.ttf') format('truetype'),
+  url($font-file+'.svg#aller') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('Lao Sangam', '../fonts/LaoSangamMN');
+@include font('Sweetly Broken', '../fonts/SweetlyBroken');
+@include font('Norwester', '../fonts/Norwester-Regular');
+
 // Font Mixins
-@mixin serif-font {
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@mixin lao-sagnam {
+  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@mixin script-font {
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+@mixin sweetly-broken {
+  font-family: 'Sweetly Broken', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@mixin body-font {
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@mixin norwester {
+  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@mixin heading-font {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-}
+// @mixin script-font {
+//   font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, cursive;
+// }
+// @mixin body-font {
+//   font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// }
+// @mixin heading-font {
+//   font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//   text-transform: uppercase;
+// }

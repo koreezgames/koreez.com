@@ -1,7 +1,7 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
-  @include body-font;
+  @include lao-sagnam;
 }
 
 p {
@@ -24,26 +24,27 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  @include heading-font;
+  font-weight: 500;
+  @include norwester;
 }
 
 section {
   padding: 50px 0;
   h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
+    font-size: 45px;
+    margin-top: 0px;
     margin-bottom: 15px;
   }
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
+    color: red;
+    @include lao-sagnam;
   }
 }
+
 @media(min-width:768px) {
   section {
     padding: 50px 0;

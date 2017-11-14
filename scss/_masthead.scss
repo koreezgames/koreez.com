@@ -11,39 +11,34 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     .intro-lead-in {
-      font-size: 22px;
+      font-size: 60px;
       font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
-    }
-    .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
-      @include heading-font;
+      margin-bottom: 285px;
+      @include sweetly-broken;
     }
   }
 }
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
       .intro-lead-in {
-        font-size: 40px;
+        font-size: 100px;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
+        margin-bottom: 400px;
+        margin-top: 100px;
+        @include sweetly-broken;
       }
-      .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        @include heading-font;
+    }
+  }
+}
+
+@media (min-width: 1900px) {
+  header.masthead {
+    .intro-text {
+      .intro-lead-in {
+        margin-bottom: 620px;
       }
     }
   }
