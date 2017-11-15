@@ -30,24 +30,24 @@ section#contact {
   }
   ::-webkit-input-placeholder {
     font-weight: 700;
-    color: $gray-lighter;
+    color: $gray-placeholder;
     @include norwester;
   }
   :-moz-placeholder {
     font-weight: 700;
-    color: $gray-lighter;
+    color: $gray-placeholder;
     /* Firefox 18- */
     @include norwester;
   }
   ::-moz-placeholder {
     font-weight: 700;
-    color: $gray-lighter;
+    color: $gray-placeholder;
     /* Firefox 19+ */
     @include norwester;
   }
   :-ms-input-placeholder {
     font-weight: 700;
-    color: $gray-lighter;
+    color: $gray-placeholder;
     @include norwester;
   }
   .text-danger {

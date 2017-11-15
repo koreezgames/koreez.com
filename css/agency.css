@@ -97,6 +97,7 @@ body {
     background-color: #008191;
     font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
+    font-size: 1.75em;
     color: white;
     font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -113,15 +114,13 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: rgba(14, 14, 14, 0.5); }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 2.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
@@ -130,10 +129,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #303030; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; } }
+      background-color: #303030; } }
 
 header.masthead {
   text-align: center;
@@ -494,21 +490,21 @@ section#contact {
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
-    color: #fcfcfc;
+    color: #dadada;
     font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-moz-placeholder {
     font-weight: 700;
-    color: #fcfcfc;
+    color: #dadada;
     /* Firefox 18- */
     font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
-    color: #fcfcfc;
+    color: #dadada;
     /* Firefox 19+ */
     font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #fcfcfc;
+    color: #dadada;
     font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact .text-danger {
     color: #e74c3c; }
