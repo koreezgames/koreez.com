@@ -171,6 +171,12 @@ header.masthead {
     header.masthead .intro-text .intro-lead-in {
       margin-bottom: 540px; } }
 
+@media (min-width: 1700px) {
+  header.masthead {
+    background-position: center -350px; }
+    header.masthead .intro-text .intro-lead-in {
+      margin-bottom: 440px; } }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
