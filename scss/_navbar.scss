@@ -1,5 +1,6 @@
 // Styling for the navbar
 #mainNav {
+  padding: 5px;
   background-color: $gray-darker;
   .navbar-toggler {
     font-size: 12px;
@@ -12,6 +13,7 @@
     @include lao-sagnam;
   }
   .navbar-brand {
+    padding: 0px;
     font-size: 1.75em;
     color: white;
     @include norwester;
