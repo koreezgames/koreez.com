@@ -521,7 +521,9 @@ section#contact {
   section#contact .container > .row:first-child {
     padding-bottom: 70px; }
   section#contact #sendMessageButton {
-    margin-top: 80px; }
+    margin-top: 80px;
+    padding: 10px 40px;
+    font-size: 25px; }
 
 footer {
   padding: 25px 0;
@@ -641,8 +643,8 @@ ul.social-buttons {
     background-color: white; }
 
 .btn-play {
-  font-size: 30px;
-  padding: 5px 50px;
+  font-size: 50px;
+  padding: 7px 80px;
   border-radius: 10px;
   color: white;
   border-color: #008191;
