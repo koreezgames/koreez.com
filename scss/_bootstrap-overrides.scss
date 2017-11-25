@@ -19,8 +19,8 @@
 }
 
 .btn-play {
-  font-size: 30px;
-  padding: 5px 50px;
+  font-size: 50px;
+  padding:7px 80px;
   border-radius: 10px;
   @include button-variant(white, $theme-primary, $theme-primary);
   box-shadow: 0px 5px 10px #888888;
