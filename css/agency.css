@@ -1,6 +1,6 @@
 /*!
  * Koreez - Koreez v1.0.0 (https://koreez.com)
- * Copyright 2016-2017 Koreez LLC
+ * Copyright 2016-2018 Koreez LLC
  * Licensed under MIT (https://github.com/koreezgames)
  */
 @font-face {
@@ -519,7 +519,7 @@ section#contact {
   section#contact .col-md-6 {
     padding: 3px; }
   section#contact .container > .row:first-child {
-    padding-bottom: 70px; }
+    padding-bottom: 10px; }
   section#contact #sendMessageButton {
     margin-top: 80px;
     padding: 10px 40px;
