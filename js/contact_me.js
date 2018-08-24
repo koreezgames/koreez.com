@@ -22,7 +22,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "http://localhost:5000/koreez-com/us-central1/contactMe",
+        url: "https://us-central1-koreez-com.cloudfunctions.net/contactMe",
         type: "POST",
         data: {
           name: name,
