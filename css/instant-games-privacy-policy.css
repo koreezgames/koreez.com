@@ -1,0 +1,158 @@
+.text-title {
+  font-size: 2em;
+  text-align: center;
+  margin: 1rem 0;
+}
+.text-title i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-title {
+  cursor: pointer;
+}
+
+.privacy-body {
+  color: #0a0a0a;
+}
+.privacy-body-item {
+  text-align: justify;
+  margin-left: 1em;
+  margin-top: 2em;
+  text-indent: 0;
+}
+.privacy-body-item > .indent-one,
+.privacy-body-item > .indent-one > .indent-two {
+  margin-top: 0.6em;
+  margin-left: 1em;
+}
+
+.privacy-description {
+  font-size: 0.6em;
+  margin-top: 10px;
+  color: #0a0a0a;
+  text-align: justify;
+}
+
+.terms-body-item > .indent-one,
+.terms-body-item > .indent-one > .indent-two {
+  margin-top: 0.6em;
+  margin-left: 1em;
+}
+
+hr {
+  display: block;
+  margin: 30px 0;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#privacy-horoscope,
+#privacy-ig,
+#privacy-omg,
+#terms-ig,
+#terms-omg {
+  margin: 0 3rem;
+}
+
+@media only screen and (max-width: 319px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 337px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 338px) and (max-width: 355px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media only screen and (min-width: 356px) and (max-width: 373px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 374px) and (max-width: 390px) {
+  html {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 391px) and (max-width: 408px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 409px) and (max-width: 426px) {
+  html {
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 444px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 445px) and (max-width: 461px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 462px) and (max-width: 479px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 497px) {
+  html {
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 498px) and (max-width: 515px) {
+  html {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 516px) and (max-width: 533px) {
+  html {
+    font-size: 29px;
+  }
+}
+@media only screen and (min-width: 534px) and (max-width: 551px) {
+  html {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 552px) and (max-width: 568px) {
+  html {
+    font-size: 31px;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+body {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  background-color: #fff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
