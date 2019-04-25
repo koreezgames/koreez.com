@@ -16,28 +16,3 @@ footer {
     @include lao-sagnam;
   }
 }
-
-ul.social-buttons {
-  margin-bottom: 0;
-  li {
-    a {
-      font-size: 20px;
-      line-height: 40px;
-      display: block;
-      width: 40px;
-      height: 40px;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
-      color: white;
-      border-radius: 100%;
-      outline: none;
-      background-color: $gray-darker;
-      &:active,
-      &:focus,
-      &:hover {
-        background-color: $theme-primary;
-      }
-    }
-  }
-}
