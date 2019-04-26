@@ -28,9 +28,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Koreez";
+  src: url("../fonts/KOREEZ-FONT.eot");
+  src: url("../fonts/KOREEZ-FONT.eot?#iefix") format("embedded-opentype"), url("../fonts/KOREEZ-FONT.woff") format("woff"), url("../fonts/KOREEZ-FONT.ttf") format("truetype"), url("../fonts/KOREEZ-FONT.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   overflow-x: hidden;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -52,7 +60,8 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 section {
@@ -63,7 +72,7 @@ section h2.section-heading {
   font-size: 54px;
   margin-top: 0px;
   margin-bottom: 5px;
-  color: #525252;
+  color: #1b1b1b;
 }
 
 section h3.section-subheading {
@@ -71,8 +80,8 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
   text-transform: none;
-  color: #525252;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #1b1b1b;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -117,14 +126,16 @@ body {
   color: white;
   border: 0;
   background-color: #dd6029;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   padding: 0px;
-  font-size: 1.75em;
+  font-size: 7em;
+  line-height: 0.5;
   color: white;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Koreez", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 0;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -137,7 +148,7 @@ body {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -152,7 +163,8 @@ body {
     background-color: rgba(14, 14, 14, 0);
   }
   #mainNav .navbar-brand {
-    font-size: 2.75em;
+    font-size: 9em;
+    line-height: 0.5;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -162,7 +174,7 @@ body {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #303030;
+    background-color: #1b1b1b;
   }
 }
 
@@ -225,62 +237,62 @@ header.masthead .logo-animation > img {
 
 header.masthead .logo-animation > img.logo-ball {
   top: -50vh;
-  -webkit-animation: ball-animation 5.5s 0s linear forwards infinite;
-  animation: ball-animation 5.5s 0s linear forwards infinite;
+  -webkit-animation: ball-animation 8.25s 0s linear forwards infinite;
+  animation: ball-animation 8.25s 0s linear forwards infinite;
 }
 
 @-webkit-keyframes ball-animation {
   0% {
+    top: -52vh;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  33.3% {
     top: -50vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  7.27% {
+  38.17% {
     top: -44vh;
     -webkit-transform: scale(0.95, 1);
     transform: scale(0.95, 1);
   }
-  14.5% {
+  42.99% {
     top: -35vh;
     -webkit-transform: scale(0.89, 1);
     transform: scale(0.89, 1);
   }
-  23.8% {
+  49.19% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  26.3% {
+  50.86% {
     top: -3.73vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  28.7% {
+  52.46% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  30.1% {
+  53.39% {
     top: -0.65vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  32.7% {
+  55.13% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  46.3% {
+  89.3% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  74% {
-    top: 0;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  84% {
+  95.9% {
     top: 10.98vh;
     -webkit-transform: scale(0.93, 1.01);
     transform: scale(0.93, 1.01);
@@ -294,56 +306,56 @@ header.masthead .logo-animation > img.logo-ball {
 
 @keyframes ball-animation {
   0% {
+    top: -52vh;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  33.3% {
     top: -50vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  7.27% {
+  38.17% {
     top: -44vh;
     -webkit-transform: scale(0.95, 1);
     transform: scale(0.95, 1);
   }
-  14.5% {
+  42.99% {
     top: -35vh;
     -webkit-transform: scale(0.89, 1);
     transform: scale(0.89, 1);
   }
-  23.8% {
+  49.19% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  26.3% {
+  50.86% {
     top: -3.73vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  28.7% {
+  52.46% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  30.1% {
+  53.39% {
     top: -0.65vh;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  32.7% {
+  55.13% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  46.3% {
+  89.3% {
     top: 0;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
-  74% {
-    top: 0;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  84% {
+  95.9% {
     top: 10.98vh;
     -webkit-transform: scale(0.93, 1.01);
     transform: scale(0.93, 1.01);
@@ -419,17 +431,17 @@ header.masthead .info ul.social-buttons li:last-child a {
   margin: 15px 0;
   text-transform: none;
   font-size: 26px;
-  color: #525252;
+  color: #1b1b1b;
 }
 
 .service-subheading {
   font-size: 20px;
   line-height: 25px;
-  color: #525252;
+  color: #1b1b1b;
 }
 
 #portfolio {
-  background-color: #2b3335;
+  background-color: #1b1b1b;
 }
 
 #portfolio h2.section-heading {
@@ -494,7 +506,7 @@ header.masthead .info ul.social-buttons li:last-child a {
   padding-top: 15px;
   text-align: center;
   background-color: white;
-  color: #525252;
+  color: #1b1b1b;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -507,7 +519,7 @@ header.masthead .info ul.social-buttons li:last-child a {
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #portfolio * {
@@ -550,7 +562,7 @@ header.masthead .info ul.social-buttons li:last-child a {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -621,7 +633,7 @@ header.masthead .info ul.social-buttons li:last-child a {
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
-  content: '';
+  content: "";
   background-color: #f1f1f1;
 }
 
@@ -633,7 +645,7 @@ header.masthead .info ul.social-buttons li:last-child a {
 
 .timeline > li:after, .timeline > li:before {
   display: table;
-  content: ' ';
+  content: " ";
 }
 
 .timeline > li:after {
@@ -713,6 +725,7 @@ header.masthead .info ul.social-buttons li:last-child a {
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+  line-height: 2.4rem;
 }
 
 .timeline .timeline-body > ul,
@@ -811,7 +824,7 @@ header.masthead .info ul.social-buttons li:last-child a {
 }
 
 .team-member h4 {
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   margin-top: 25px;
   margin-bottom: 0;
@@ -823,7 +836,7 @@ header.masthead .info ul.social-buttons li:last-child a {
 }
 
 section#contact {
-  background-color: #545454;
+  background-color: #1b1b1b;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -864,27 +877,31 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #dadada;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #dadada;
   /* Firefox 18- */
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #dadada;
   /* Firefox 19+ */
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #dadada;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
 
 section#contact .text-danger {
@@ -914,7 +931,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Norwester", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
@@ -922,7 +939,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .text-primary {
@@ -938,7 +955,7 @@ footer ul.quicklinks {
   color: white;
   border-color: #dd6029;
   background-color: #dd6029;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -995,7 +1012,7 @@ fieldset[disabled] .btn-primary:hover {
   color: white;
   border-color: #dd6029;
   background-color: #dd6029;
-  font-family: 'Lao Sangam', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lao Sangam", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .btn-xl.focus, .btn-xl:focus {
@@ -1105,11 +1122,12 @@ fieldset[disabled] .btn-play:hover {
   color: white;
   border-color: #dd6029;
   background-color: #dd6029;
-  font-family: 'Norwester', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
   letter-spacing: 2px;
   padding: 20px 45px;
-  -webkit-box-shadow: 0px 5px 10px #3a3a3a;
-  box-shadow: 0px 5px 10px #3a3a3a;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-send.focus, .btn-send:focus {

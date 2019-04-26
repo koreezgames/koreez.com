@@ -1,6 +1,6 @@
 // Styling for the contact section
 section#contact {
-  background-color: #545454;
+  background-color: $theme-header-bg;
   background-repeat: no-repeat;
   background-position: center;
   .section-heading {
@@ -31,24 +31,24 @@ section#contact {
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-placeholder;
-    @include norwester;
+    @include helvetica-neue;
   }
   :-moz-placeholder {
     font-weight: 700;
     color: $gray-placeholder;
     /* Firefox 18- */
-    @include norwester;
+    @include helvetica-neue;
   }
   ::-moz-placeholder {
     font-weight: 700;
     color: $gray-placeholder;
     /* Firefox 19+ */
-    @include norwester;
+    @include helvetica-neue;
   }
   :-ms-input-placeholder {
     font-weight: 700;
     color: $gray-placeholder;
-    @include norwester;
+    @include helvetica-neue;
   }
   .text-danger {
     color: $theme-danger;
