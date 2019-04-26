@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  @include norwester;
+  @include helvetica-neue;
 }
 
 section {
@@ -34,14 +34,14 @@ section {
     font-size: 54px;
     margin-top: 0px;
     margin-bottom: 5px;
-    color: #525252;
+    color: $theme-header-bg;
   }
   h3.section-subheading {
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
-    color: #525252;
+    color: $theme-header-bg;
     @include lao-sagnam;
   }
 }

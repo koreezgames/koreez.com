@@ -39,51 +39,51 @@ header.masthead {
 
       &.logo-ball {
         top: -50vh;
-        animation: ball-animation 5.5s 0s linear forwards infinite;
+        animation: ball-animation 8.25s 0s linear forwards infinite;
       }
 
       @keyframes ball-animation {
         0% {
+          top: -52vh;
+          transform: scale(1, 1);
+        }
+        33.3% {
           top: -50vh;
           transform: scale(1, 1);
         }
-        7.27% {
+        38.17% {
           top: -44vh;
           transform: scale(0.95, 1);
         }
-        14.5% {
+        42.99% {
           top: -35vh;
           transform: scale(0.89, 1);
         }
-        23.8% {
+        49.19% {
           top: 0;
           transform: scale(1, 1);
         }
-        26.3% {
+        50.86% {
           top: -3.73vh;
           transform: scale(1, 1);
         }
-        28.7% {
+        52.46% {
           top: 0;
           transform: scale(1, 1);
         }
-        30.1% {
+        53.39% {
           top: -0.65vh;
           transform: scale(1, 1);
         }
-        32.7% {
+        55.13% {
           top: 0;
           transform: scale(1, 1);
         }
-        46.3% {
+        89.3% {
           top: 0;
           transform: scale(1, 1);
         }
-        74% {
-          top: 0;
-          transform: scale(1, 1);
-        }
-        84% {
+        95.9% {
           top: 10.98vh;
           transform: scale(0.93, 1.01);
         }

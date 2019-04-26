@@ -1,6 +1,6 @@
 // Styling for the portfolio section
 #portfolio {
-  background-color: #2b3335;
+  background-color: $theme-header-bg;
   h2.section-heading {
     color: #fdfdfd;
   }
@@ -24,7 +24,7 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: fade-out($theme-primary, .1);
+        background: fade-out($theme-primary, 0.1);
         &:hover {
           opacity: 1;
         }
@@ -54,7 +54,7 @@
       padding-top: 15px;
       text-align: center;
       background-color: white;
-      color: #525252;
+      color: $theme-header-bg;
       h4 {
         margin: 0;
         text-transform: none;
@@ -72,7 +72,7 @@
     z-index: 2;
   }
 }
-@media(min-width:767px) {
+@media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
